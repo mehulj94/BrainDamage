@@ -1,7 +1,7 @@
 # BrainDamage
 A python based remote administration tool which uses [Telegram](https://telegram.org/) as C&C server.
 
-<pre>
+```
                            /\
                           /_.\
                     _,.-'/ `",\'-.,_
@@ -16,9 +16,7 @@ A python based remote administration tool which uses [Telegram](https://telegram
                                                         __/ |     
                                                        |___/      
 
---> Coded by: Mehul Jain(mehulj94@gmail.com)
---> Github: https://github.com/mehulj94
---> Twitter: https://twitter.com/_b00geyman_
+--> Coded by: Mehul Jain
 --> For windows only
 
   ______         _                       
@@ -65,7 +63,7 @@ A python based remote administration tool which uses [Telegram](https://telegram
     • Internal and External IP
     • Ipconfig /all output
     • Platform
-</pre>
+```
 
 # Setup
 * Telegram setup:
