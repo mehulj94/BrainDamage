@@ -258,10 +258,10 @@ def handle(msg):
                     elif flag == "#find":
                         find(command_to_execute)
                     elif flag == "#help" :
-                        help()
+                        getHelp()
 
 
-def help():
+def getHelp():
     bot.sendMessage(CHAT_ID, help_text)
 
 
@@ -597,10 +597,6 @@ def stop(service):
             server.stopServer()
     except Exception as e:
         print e
-
-
-def upload():
-    pass
 
 
 if __name__ == '__main__':
